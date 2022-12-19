@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+       /* step1 */
+    .clear {
+        clear: both;
+    }
+    header {
+        width: 1140px;
+        height: 100px;
+        margin: 0 auto;
+        /* border: solid 1px red; */
+    }
+    #main_img {
+        width: 100%;
+        height: 250px;
+        /* border: solid 1px red; */
+    }
+    #contents {
+        width: 1140px;
+        height: 300px;
+        margin: 0 auto;
+        /* border: solid 1px red; */
+    }
+    #sub_menu {
+        width: 234px;
+        float: left;
+        /* border: solid 1px red; */
+    }
+    #main_contents {
+        width: 880px;
+        float: center;
+        /* border: solid 1px red; */
+    }
+    footer {
+        width: 100%;
+        height: 150px;
+        /* border: solid 1px red; */
+    }
+
+    /* step2 */
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: ‘KoPub Batang’;
+        font-size: 14px;
+        color: #444444;
+        background-color: #ffffff;
+    }
+    li {
+        list-style-type: none;
+    }
+    header {
+        width: 1140px;
+        height: 100px;
+        margin: 0 auto;
+        /* border: solid 1px red; */
+    }
+    #logo {
+        float: left;
+        margin: 20px 0 0 20px;
+        /* border: solid 1px red; */
+    }
+    #menus {
+        float: right;
+        /* border: solid 1px red; */
+    }
+    #top_menu {
+        text-align: right;
+        margin-top: 20px;
+        /* border: solid 1px red; */
+    }
+    #main_menu {
+        margin-top: 20px;
+        font-family: ‘ㅇ’;
+        font-size: 20px;
+        color: black;
+        /* border: solid 1px red; */
+    }
+    #main_menu li {
+        display: inline;
+        margin-left: 80px;
+    }
+
+    /* step3 */
+    #main_img {
+    width: 100%;
+    height: 150px;
+    background-image: url('img/main_img.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 20px;
+    }
+
+    /* step4 */
+    li {
+        list-style-type: none;
+    }
+    #contents {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    #sub_menu {
+        width: 234px;
+        float: left;
+        margin-top: 25px;
+        /* border: solid 1px red; */
+    }
+    #sub_menu h3 {
+        font-size: 18px;
+        color: #ffffff;
+        padding: 12px;
+        background-color: #000000;
+    }
+    #sub_menu li {
+        padding: 10px;
+        border-bottom: dotted 1px #cccccc;
+    }
+    #main_contents {
+        width: 880px; 
+        /* 880 */
+        float: right;
+        margin-top: 25px;
+        /* border: solid 1px red; */
+    }
+    #main_contents h3 {
+        font-size: 18px;
+        padding-bottom: 8px;
+        border-bottom: solid 1px #cccccc;
+    }
+    #main_contents p {
+        margin-top: 30px;
+        line-height: 180%;
+    }
+    #main_contents #figure {
+        margin-top: 30px;
+        text-align: center;
+    }
+    #main_contents li {
+        padding: 5px;
+    }
+    /* step5 */
+    footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: #222222;
+    }
+    #footer_box {
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+        /* border: solid 1px green; */
+    }
+    #footer_logo {
+        float: left;
+        margin: 50px 0 0 30px;
+        /* border: solid 1px red; */
+    }
+    #address {
+        float: right;
+        margin: 50px 30px 0 0;
+        color: white;
+        /* border: solid 1px red; */
+    }
+
+
+    a { text-decoration: none; color: black; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+
+   /* css */
+
+    </style>
+     <link rel="stylesheet" href="./css/slide.css" />
+
+    
+
+</head>
+<body>
+    <header>
+
+        <div id='logo'>
+            <a href='index.html'><img src='img/logo.png' width="250"></a>
+        </div>
+        <nav id='menus'>
+            <div id='top_menu'>메인화면 > 헤드셋
+            </div>
+            <ul id='main_menu'>
+                <li><a href='mouse.html'>마우스</a></li>
+                <li><a href='keyborad.html'>키보드</a></li>
+                <li><a href='haedset.html'>헤드셋</a></li>
+                <li><a href='mic.html'>마이크</a></li>
+                <li><a href='5.html'>꿀팁모음</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- <section id="main_img"> -->
+    <!-- 배너 이미지 슬라이드 -->
+    <!-- <div class="slide slide_wrap">
+        <div class="slide_item item1"></div>
+        <div class="slide_item item2"></div>
+        <div class="slide_item item3"></div>
+        <div class="slide_item item4"></div>
+        <div class="slide_item item5"></div>
+        <div class="slide_prev_button slide_button">◀</div>
+        <div class="slide_next_button slide_button">▶</div>
+        <ul class="slide_pagination"></ul>
+      </div> -->
+
+    
+    
+    </section>
+
+    <section id="contents">
+        <nav id="sub_menu">
+            <h3>꿀팁 모음</h3>
+            <ul>
+                <li><a href='5.html'>손 크기별 마우스 추천</a></li>
+                <li><a href='6.html'>키보드 축 차이점</a></li>
+                <li><a href='7.html'>헤드셋 잘 고르는 방법</a></li>
+                
+                
+            </ul>
+        </nav>
+        
+        <div id="main_contents">
+            <h3>헤드셋 추천 제품</h3>
+            <br><br>
+            <!-- 1번째 줄 -->
+            <table>
+                <!-- 제품명 -->
+                <tr>
+                    <th rowspan="7"><img src='img/N550.png'width='300'></th>
+                    <th>제품명 :</th> <th>N550
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </th>
+                    <th rowspan="7">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </th>  
+                </tr>
+                <!-- 브랜드 -->
+                <tr>
+                   <th>브랜드 :</th> <th>앱코
+                    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                   </th>
+                </tr>
+
+                <tr>
+                    <th>평&nbsp;&nbsp;점 :</th> <th>&nbsp;★★★★☆
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </th>
+                 </tr>
+
+                 <tr>
+                    <th>한줄평 :</th> <th>&nbsp;가성비 좋은 게이밍 헤드셋
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </th>
+                 </tr>
+
+                <!-- 공백 -->
+                <tr>
+                    <th> &nbsp;</th> <th> </th> <th> </th> <th> </th><th> </th> <th> </th>
+                </tr>
+                <tr>
+                    <th> &nbsp;</th> <th> </th> <th> </th> <th> </th><th> </th> <th> </th>
+                </tr>
+                <!-- 가격 -->
+                <tr>
+                    <th>가&nbsp;&nbsp;격 :</th ><th>32,000원
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </th>
+                </tr>
+            </table>
+
+            <br><br><br>
+
+             <!-- 2번째 줄 -->
+             <table>
+                <!-- 제품명 -->
+                <tr>
+                    <th rowspan="7"><img src='img/g733.png'width='300'></th>
+                    <th>제품명 :</th> <th>G 733
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </th>
+                    <th rowspan="7">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </th>  
+                </tr>
+                <!-- 브랜드 -->
+                <tr>
+                   <th>브랜드 :</th> <th>logitech
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                   </th>
+                </tr>
+
+                <tr>
+                    <th>평&nbsp;&nbsp;점 :</th> <th>&nbsp;★★★★☆
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </th>
+                 </tr>
+
+                 <tr>
+                    <th>한줄평 :</th> <th>&nbsp;장시간 사용자에게 특화된 무게, 고성능 유무선 헤드셋</th>
+                 </tr>
+
+                <!-- 공백 -->
+                <tr>
+                    <th> &nbsp;</th> <th> </th> <th> </th> <th> </th><th> </th> <th> </th>
+                </tr>
+                <tr>
+                    <th> &nbsp;</th> <th> </th> <th> </th> <th> </th><th> </th> <th> </th>
+                </tr>
+                <!-- 가격 -->
+                <tr>
+                    <th>가&nbsp;&nbsp;격 :</th ><th>167,600원
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </th>
+                </tr>
+            </table>
+
+            <br><br><br>
+
+            <!-- 3번째 줄 -->
+            <table>
+                <!-- 제품명 -->
+                <tr>
+                    <th rowspan="7"><img src='img/g pro x h.png.'width='300'></th>
+                    <th>제품명 :</th> <th>G PRO X
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </th>
+                    <th rowspan="7">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </th>  
+                </tr>
+                <!-- 브랜드 -->
+                <tr>
+                   <th>브랜드 :</th> <th>logitech
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                   </th>
+                </tr>
+
+                <tr>
+                    <th>평&nbsp;&nbsp;점 :</th> <th>&nbsp;★★★★★ [강력추천]
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </th>
+                 </tr>
+
+                 <tr>
+                    <th>한줄평 :</th> <th>&nbsp;뛰어난 음질, 편안한 디자인 최고의 헤드셋
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </th>
+                 </tr>
+
+                <!-- 공백 -->
+                <tr>
+                    <th> &nbsp;</th> <th> </th> <th> </th> <th> </th><th> </th> <th> </th>
+                </tr>
+                <tr>
+                    <th> &nbsp;</th> <th> </th> <th> </th> <th> </th><th> </th> <th> </th>
+                </tr>
+                <!-- 가격 -->
+                <tr>
+                    <th>가&nbsp;&nbsp;격 :</th ><th>188,900원
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </th>
+                </tr>
+            </table>
+
+            <br><br><br>
+        </div>
+
+        
+
+        
+        
+    </section>
+    <div class="clear"></div>
+
+    <footer>
+        <div id='footer_box'>
+            <div id='footer_logo'>
+                <img src='img/logo.png' width="250">
+            </div>
+        <ul id='address'>
+            <li>Kaywon University of Art & Design.</li>
+            <li>Email : wjdgns4265@naver.com</li>
+            <li>COPYRIGHT (C) 2022 </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/slide.js"></script>
+</body>
+</html>
